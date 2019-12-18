@@ -8,7 +8,7 @@
     },
     "configurations": [
       {
-        "name": "MingGW",
+        "name": "MinGW",
         "intelliSenseMode": "clang-x64",
         "includePath": ["${myDefaultIncludePath}", "${cpp_bindings_path}/include","${cpp_bindings_path}/include/core","${cpp_bindings_path}/include/gen/","${godot_headers_path}"],
         "defines": ["FOO", "BAR=100"],
