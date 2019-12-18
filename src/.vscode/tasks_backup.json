@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc.exe build active file",
+            "command": "E:\\msys64\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "${file}",
+                "-std=c11",
+                "-fPIC",
+                "-c",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.os",
+                "-I",
+                "E:\\msys64\\home\\leoric\\github\\godot_headers",
+            ],
+            "options": {
+                "cwd": "E:\\msys64\\mingw64\\bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
